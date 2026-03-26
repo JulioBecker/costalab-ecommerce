@@ -37,7 +37,7 @@ export default function Home() {
             className="w-full px-4 md:px-12 h-auto object-contain drop-shadow-xl select-none dark:invert" 
             draggable={false}
           />
-          <p className="font-mono text-sm md:text-xl tracking-widest uppercase font-bold max-w-2xl mt-8">
+          <p className="hidden md:block font-mono text-xl tracking-widest uppercase font-bold max-w-2xl mt-8">
             Raw Aesthetics. High Contrast. Brutal Minimalism.
           </p>
           <Link 
