@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full">
       <section className="h-screen w-full flex flex-col justify-center items-center border-b-2 border-foreground relative overflow-hidden bg-background text-foreground pt-16">
-        <div className="z-10 text-center px-4 flex flex-col items-center w-full max-w-5xl">
+        <div className="z-10 text-center px-4 flex flex-col items-center w-full max-w-5xl -mt-16 md:mt-0">
           <img 
             src="/logo-preta.png" 
             alt="CostaLAB" 
@@ -42,7 +42,7 @@ export default function Home() {
           </p>
           <Link 
             href="/produtos" 
-            className="mt-12 border-2 border-foreground px-8 py-4 font-mono font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors flex items-center gap-4"
+            className="mt-12 md:mt-12 border-2 border-foreground px-8 py-4 font-mono font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors flex items-center gap-4"
           >
             Ver Coleção <ArrowRight className="w-5 h-5 stroke-[3px]" />
           </Link>
