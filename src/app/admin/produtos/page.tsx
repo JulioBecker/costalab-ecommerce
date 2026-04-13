@@ -269,7 +269,7 @@ export default function AdminProductsPage() {
                       <td className="p-4 text-right">
                         <div className="flex justify-end gap-3 text-gray-400">
                           <button onClick={() => openEditModal(p)} className="hover:text-blue-600 transition-colors" title="Editar"><Edit className="w-4 h-4" /></button>
-                          <button onClick={() => openStockModal(p)} className="hover:text-red-600 transition-colors" title="Remover/Adicionar Estoque"><Trash2 className="w-4 h-4" /></button>
+                          <button onClick={() => openStockModal(p)} className="hover:text-green-600 transition-colors text-gray-400" title="Gerenciar Estoque"><Box className="w-4 h-4" /></button>
                         </div>
                       </td>
                     </tr>
